@@ -1,7 +1,7 @@
 void setup() {
   pinMode (A0, INPUT);
   digitalWrite (A0, HIGH);
-  pinMode(12, OUTPUT);
+  pinMode(11, OUTPUT);
   // put your setup code here, to run once:
 
 }
@@ -9,11 +9,11 @@ void setup() {
 void loop() {
   if (digitalRead(A0)==LOW)
   {
-    digitalWrite(12, HIGH);
+    digitalWrite(11, HIGH);
   }
   else
   {
-    digitalWrite(12, LOW);
+    digitalWrite(11, LOW);
   }
   // put your main code here, to run repeatedly:
 
