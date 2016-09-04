@@ -16,5 +16,5 @@ digitalWrite(9, HIGH);
 digitalWrite(10, 1);
 digitalWrite(11, LOW);
 digitalWrite(12, LOW);
-digitalWrite(13, 0);
+digitalWrite(13, 1);
 }
