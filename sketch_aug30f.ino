@@ -9,11 +9,11 @@ void setup() {
 void loop() {
   if(bit_is_clear(PINC, 0))
   {
-    PORTB = 0x01;
+    PORTB = 0x10;
   }
   else
   {
-    PORTB = 0x11;
+    PORTB = 0x00;
   }
   // put your main code here, to run repeatedly:
 
